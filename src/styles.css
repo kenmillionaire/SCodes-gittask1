@@ -1,0 +1,136 @@
+html {
+  height: 100%;
+}
+body {
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: linear-gradient(
+      45deg,
+      #a5dab1 25%,
+      rgba(55, 214, 63, 0.726) 25%,
+      rgba(55, 214, 68, 0.726) 75%,
+      #0daf51 75%
+    ),
+    linear-gradient(
+      to top right,
+      #a5c1da 25%,
+      rgba(239, 239, 239, 0),
+      rgba(239, 239, 239, 0) 75%
+    );
+}
+h1 {
+  display: block;
+  margin: 0 auto;
+  color: white;
+
+  font-size: 40px;
+}
+ul {
+  margin: 0 0 20px;
+  padding: 0;
+  color: white;
+}
+li {
+  list-style: none;
+}
+a {
+  color: white;
+}
+.date {
+  text-align: left;
+}
+.container {
+  display: block;
+  min-width: 920px;
+  margin: 0 auto;
+}
+.weather-container {
+  background: linear-gradient(rgb(36, 189, 44), rgb(95, 221, 179));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border: 1px solid white;
+  padding: 15px;
+  max-width: 900px;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+.col-6 {
+  line-height: 1.5;
+  font-size: 25px;
+}
+.input-group {
+  margin: 10px auto;
+  padding: 10px;
+}
+.temperature {
+  color: white;
+  font-weight: 300;
+  font-size: 90px;
+  line-height: 1.5;
+  display: contents;
+  margin: 0 auto;
+}
+.units {
+  position: relative;
+  top: -36px;
+  color: white;
+}
+.weather-icon {
+  font-weight: 300;
+  font-size: 90px;
+  line-height: 1.5;
+  margin: 0 0 0 50px;
+}
+.footer {
+  display: flex;
+  height: 50px;
+  color: blue;
+}
+
+.footer .codeby {
+  position: fixed;
+  align-self: right;
+  margin: 0 auto;
+  bottom: 10px;
+  right: 10px;
+}
+
+.city {
+  padding-right: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+.form-select {
+  background: linear-gradient(rgb(36, 43, 189), rgb(95, 175, 221));
+  border: 1px solid white;
+  color: white;
+}
+
+.weather-container {
+  text-align: center;
+  display: block;
+  margin-top: 90px;
+}
+.rectangle {
+  width: 85%;
+  height: 200px;
+  border: 1px solid blue;
+  border-radius: 15px;
+  margin: 5px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.weather-by-days-container {
+  color: white;
+  font-size: 34px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.parameters {
+  display: block;
+  margin: 0 10px 0 80px;
+}
